@@ -1,42 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title> My Top Ten Tags & Styles</title>
-  </head>
-  <body>
-    <header title="I'm a Header!">
-      <h1 title="I'm an H1">My Top Ten</h1>
-      <img title="I'm an img" src="http://www.incrediblethings.com/wp-content/uploads/2012/07/cat-votes-for-himself.jpg">
-    </header>
-    <section class="section" title="I'm The HTML Section">
-      <h2 title="I'm an H2">HTML</h2>
-      <p title="I'm a p">Here are a few HTML things I like:</p>
-      <!-- Copy this Definition Div for each HTML thing you choose -->
-      <div class="definition" title="I'm a Definition Div!">
-        <h3>TERM TITLE</h3>
-        <p>Describe this term, and make an example of how its used:</p>
-        <!-- EXAMPLE CODE GOES HERE -->
-      <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-      <a href="#">resource link</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 HTML Tags Examples</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>10 HTML Tags Examples</h1>
+
+    <!-- 1. Heading tag -->
+    <div class="example">
+        <h2>1. &lt;h1&gt; - Heading</h2>
+        <p>This is the main heading of the page.</p>
+        <code>&lt;h1&gt;This is a main heading&lt;/h1&gt;</code>
     </div>
-  </section>
-  <section class="section" title="I'm The CSS Section">
-    <h2 title="I'm an H2">CSS Things</h2>
-    <p title="I'm a p">Here are a few CSS things I like:</p>
-    <!-- Copy this Definition Div for each CSS thing you choose -->
-    <div class="definition" title="I'm a Definition Div!">
-      <h3>TERM TITLE</h3>
-      <p>Describe this term, and make an example of how its used:</p>
-      <!-- EXAMPLE CODE GOES HERE -->
-    <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-    <a href="#">resource link</a>
-  </div>
-</section>
-<footer>
-  <p>Made with gusto by <a href="#">YOUR NAME HERE</a></p>
-</footer>
+
+    <!-- 2. Paragraph tag -->
+    <div class="example">
+        <h2>2. &lt;p&gt; - Paragraph</h2>
+        <p>This is a paragraph element that contains blocks of text content.</p>
+        <code>&lt;p&gt;This is a paragraph element&lt;/p&gt;</code>
+    </div>
+
+    <!-- 3. Anchor tag -->
+    <div class="example">
+        <h2>3. &lt;a&gt; - Anchor/Link</h2>
+        <p>Visit <a href="https://www.example.com">Example Website</a> for more information.</p>
+        <code>&lt;a href="https://www.example.com"&gt;Example Website&lt;/a&gt;</code>
+    </div>
+
+    <!-- 4. Image tag -->
+    <div class="example">
+        <h2>4. &lt;img&gt; - Image</h2>
+        <img src="https://via.placeholder.com/150" alt="Placeholder image" width="150">
+        <p>An image displayed on the webpage.</p>
+        <code>&lt;img src="image.jpg" alt="Description" width="150"&gt;</code>
+    </div>
+
+    <!-- 5. List tags -->
+    <div class="example">
+        <h2>5. &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; - Lists</h2>
+        <h3>Unordered List:</h3>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+        </ul>
+        <h3>Ordered List:</h3>
+        <ol>
+            <li>First step</li>
+            <li>Second step</li>
+            <li>Third step</li>
+        </ol>
+        <code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;<br>&lt;ol&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;</code>
+    </div>
+
+    <!-- 6. Div tag -->
+    <div class="example">
+        <h2>6. &lt;div&gt; - Division/Container</h2>
+        <div class="container-demo">
+            This is a div container used to group other elements together.
+        </div>
+        <code>&lt;div&gt;Content inside a container&lt;/div&gt;</code>
+    </div>
+
+    <!-- 7. Span tag -->
+    <div class="example">
+        <h2>7. &lt;span&gt; - Inline Container</h2>
+        <p>This text contains a <span class="highlight">highlighted span</span> element.</p>
+        <code>&lt;span style="background-color: yellow;"&gt;highlighted text&lt;/span&gt;</code>
+    </div>
+
+    <!-- 8. Button tag -->
+    <div class="example">
+        <h2>8. &lt;button&gt; - Button</h2>
+        <button onclick="alert('Button clicked!')">Click Me</button>
+        <p>A clickable button element.</p>
+        <code>&lt;button&gt;Click Me&lt;/button&gt;</code>
+    </div>
+
+    <!-- 9. Form and Input tags -->
+    <div class="example">
+        <h2>9. &lt;form&gt; and &lt;input&gt; - Form Elements</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </form>
+        <code>&lt;form&gt;&lt;input type="text" placeholder="Name"&gt;&lt;/form&gt;</code>
+    </div>
+
+    <!-- 10. Strong and Em tags -->
+    <div class="example">
+        <h2>10. &lt;strong&gt; and &lt;em&gt; - Text Formatting</h2>
+        <p>This text is <strong>strong/bold</strong> and this is <em>emphasized/italic</em>.</p>
+        <code>&lt;strong&gt;bold text&lt;/strong&gt;<br>&lt;em&gt;italic text&lt;/em&gt;</code>
+    </div>
 </body>
 </html>
